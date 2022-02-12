@@ -15,5 +15,9 @@ resource "aws_instance" "demo" {
 
 resource "aws_s3_bucket" "demo" {
   bucket = "tu-dublin-s3-bucket-12345"
+}
+
+resource "aws_s3_bucket_acl" "demo" {
+  bucket = "tu-dublin-s3-bucket-12345"
   acl = "public-read"
 }
