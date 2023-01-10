@@ -1,5 +1,4 @@
-1. Download and unzip ExtraPuTTY.
-- http://www.extraputty.com/download.php
+1. Download and unzip ExtraPuTTY from Moodle.
 
 2. Create and download security credentials through IAM on the AWS console.
 
