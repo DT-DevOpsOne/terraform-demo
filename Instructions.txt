@@ -1,16 +1,16 @@
-1. Download and unzip ExtraPuTTY from Moodle.
+1. Download PuTTY: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
-2. Create and download security credentials through IAM on the AWS console.
+2. Start Learner Lab and open console.
 
 3. Create and download a key pair named TU_Dublin in .pem format on the AWS console.
 
 4. Convert the keypair to .ppk format using PuTTYgen.
 
 5. Download and unzip the Git repository.
-- https://github.com/kevinbayliss/cloudformation-demo
+- https://github.com/DT-DevOpsOne/terraform-demo.git
 
 6. Create a Management EC2 instance through CloudFormation on the AWS console and connect to it through PuTTY.
-- cloudformation-demo-main\environment\template.yaml
+- cloudformation-demo\environment\template.yaml
 
 7. Add an SSH access rule to the default security group.
 
@@ -20,7 +20,7 @@
 
 9. Clone the Git repository.
 - cd ~
-- git clone https://github.com/kevinbayliss/terraform-demo
+- git clone https://github.com/DT-DevOpsOne/terraform-demo.git
 - cd terraform-demo
 - ls
 
