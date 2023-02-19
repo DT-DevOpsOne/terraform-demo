@@ -84,4 +84,3 @@ resource "aws_s3_bucket_acl" "demo" {
 - terraform init
 - terraform plan -out output.terraform
 - terraform apply -auto-approve output.terraform
-- terraform destroy -auto-approve
