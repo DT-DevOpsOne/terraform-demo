@@ -5,8 +5,8 @@ variable "TOKEN" {}
 variable "AMI" {
   type = map(string)
   default = {
-    us-east-1 = "ami-0557a15b87f6559cf"
-    eu-east-2 = "ami-0a669382ea0feb73a"
+    us-east-1 = "ami-0dfcb1ef8550277af"
+    us-east-2 = "ami-0cc87e5027adcdca8"
   }
 }
 
